@@ -1,0 +1,88 @@
+<!doctype html>
+<html lang="en"> 
+ <head>
+ <meta charset="utf-8">
+ <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+ <title>MyWebSite</title>
+ <link href="css/bootstrap.css" rel="stylesheet"> 
+ <link href="css/bootstrap.min.css" rel="stylesheet"> 
+ <link rel="icon" href="favicon.ico" type="image/x-icon">
+ <style>
+ body{
+    background-color:Azure;
+ 
+ }
+ 
+ .embed-responsive-item{
+   margin-top: auto;
+ }
+ @media (min-width: 1200px) {
+ .b{
+ color:Midnightblue;
+ }
+ }
+ @media (min-width: 992px) and (max-width: 1199px) {
+ .b{
+ color:Darkblue;
+ }
+ }
+ </style>
+ </head>
+  <body>
+ <div class="row"><div class="col-md-12">
+	<nav class="navbar navbar-inverse">
+	<div class="container-fluid">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+        <span class="sr-only"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <a class="navbar-brand" href="Home.htm">KUŞADASI</a>
+    </div>
+     <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+      <ul class="nav navbar-nav">
+        <li><a href="Home.htm">Home</a></li>
+        <li><a href="LocalDishes.htm">Local Dishes</a></li>
+		<li><a href="HistoricalPlaces.htm">Historical Places</a></li>
+		<li><a href="UsefulLinks.htm">Useful Links</a></li>
+		<li><a href="AboutMe.htm">About Me</a></li>
+		<li><a href="ContactMe.htm">Contact Me</a></li>
+		<li class="active"><a href="Registration.htm">Registration</a></li>
+		</ul>
+    </div>
+  </div>
+</nav>
+</div>
+</div>
+	<div class="row"><div class="col-lg-12">
+ <h1><center><b><font class="b" face="Times New Roman"  size="7">REGISTRATION</b></center><h1>
+ <form><font class="b1"  face="Times New Roman"  size="5" align="left" >
+ <form action="ThanksForRegistration.htm" method="post"> 
+ Name:                                    <input type="text" name="Name" required></br>
+ Surname:                                 <input type="text" name="Surname" required></br>
+ Date of Birth:                           <input type="date" name="Date of Birth" required></br>
+ E-mail:                                  <input type="email" name="mail" required></br>
+ Password:                                <input type="password" id="password" required></br>
+ Gender:                                  <select>
+ <option value="Female">Female</option>
+ <option value="Male">Male</option>
+</select></br>
+Interest of Programming Language:         <br>
+        <input type="checkbox" name="Java" value="Java">Java</br>
+        <input type="checkbox" name="C#" value="C#">C#</br>
+        <input type="checkbox" name="C++" value="C++">C++</br>
+        <input type="checkbox" name="Python" value="Python">Python</br>
+        <input type="checkbox" name="JavaScript" value="JavaScript">JavaScript</br>
+        <input type="checkbox" name="SQL" value="SQL">SQL</br>
+        <input type="checkbox" name="Etc." value="Etc.">Etc.</br>
+        <center><input type="button" value="Submit" onclick="location.href='ThanksForRegistration.htm'">
+        <input type="reset" value="Reset"></br></center>
+</form>
+</div>
+	</div><script src="js/jquery.min.js"></script> 
+ <script src="js/bootstrap.min.js"></script> 
+</body>
+</html>
